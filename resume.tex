@@ -1,0 +1,242 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.2 (16/9/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass[]{openfont}
+\usepackage{fancyhdr}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+ 
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{}{Saif Ul Islam}{ \href{https://www.linkedin.com/in/suislam/}{linkedin/in/suislam} | \href{https://github.com/Rubix982}{github.com/Rubix982}\\
+\href{mailto:saifulislam84210@gmail.com}{saifulislam84210@gmail.com} | +923112809331
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+\subsection{FAST NUCES}
+\descript{Bachelor Of Science in Computer Science, 3.62 CGPA}
+\location{July 2022 | Karachi, Pakistan}
+ex-ACM, ex-DevDay, 2x GDSC, IEEE
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+
+\subsection{Languages}
+JavaScript/TypeScript \textbullet{} C\# \textbullet{} Python \textbullet{} C/C++
+\sectionsep
+
+\subsection{Libraries/Frameworks}
+ReactJS \textbullet{} NextJS \textbullet{} NodeJS \textbullet{} ExpressJS \textbullet{} NestJS \textbullet{} DotNet Core (.NET 5.0) \textbullet{} Flask \textbullet{} Django \textbullet{} HTML/CSS/SaSS \textbullet{} Material UI \textbullet{} Redux \textbullet{} CMake \textbullet{} CUDA
+\sectionsep 
+
+\subsection{Productivity}
+Git \textbullet{} Linux (Arch/Debian) \textbullet{} Bash (Shell Scripting) \textbullet{} Markdown \textbullet{} LaTeX \textbullet{} Figma  \textbullet{} LucidChart (UML)
+\sectionsep
+
+\subsection{Databases}
+MySQL \textbullet{} MongoDB \textbullet{} Neo4j
+\sectionsep
+
+\subsection{DevOps / Cloud}
+Docker \textbullet{} Docker Compose \textbullet{} Azure \textbullet{} GCP {\footnotesize\textit{\textbf{(\href{https://www.qwiklabs.com/public_profiles/d0984371-b6fe-43de-ae48-a4cbad94d26f}{20 quests completion}})}}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     VOLUNTEERING & COMMUNITIES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Volunteering \& Communities}
+\textbullet{} .NET Foundation - Member {\footnotesize{\textit{\textbf{(Feb '21 - Present)}}}} \\
+\textbullet{} Software Development Pakistan {\footnotesize{\textit{\textbf{(May '21 - Present)}}}} \\
+\textbullet{} IEEE Membership {\footnotesize{\textit{\textbf{(Jan '22 - Present)}}}} \\
+\textbullet{} DevFest '21 Student Campus Ambassador {\footnotesize{\textit{\textbf{(Nov '21 - Dec '21)}}}}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     CERTIFICATIONS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Certifications}
+
+\textbullet{} SUSE Scholarship Challenge Finalist 2021 @Udacity, @SUSE, \location{\href{https://udacity-email.s3.us-west-2.amazonaws.com/SUSE/SUSE_Scholarship_Finalist_Badge.png?bsft_aaid=affd8710-61ff-4001-baca-1d4a7303381d&bsft_eid=c10c73ad-a3fc-4be5-8a8e-406fe76a2062&utm_campaign=sch_600_2021-08-04_ndxxx_suse-100-completion-badge&utm_source=blueshift&utm_medium=email&utm_content=sch_600_2021-08-04_ndxxx_suse-100-completion-badge&bsft_clkid=98dac48e-82fb-4a17-9422-990158e04d87&bsft_uid=1ad320c9-3e03-4e9c-bf57-15c259eb60cb&bsft_mid=e9b16371-15d0-4f21-800d-beb044dc1d74&bsft_mime_type=html&bsft_ek=2021-08-04T13\%3A22\%3A39Z&bsft_lx=4&bsft_tv=7}{link}, (2021)} 
+
+% \textbullet{} DeepLearning.AI Tensorflow Developer, \location{\href{https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~57GG4X4J48HY/CERTIFICATE_LANDING_PAGE~57GG4X4J48HY.jpeg}{link}, (2020)}
+
+\textbullet{} Google Cloud Fundamentals: Core Infrastructure, \location{\href{https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~BKZKFUZPJDW5/CERTIFICATE_LANDING_PAGE~BKZKFUZPJDW5.jpeg}{link}, (2020)}
+
+\textbullet{} Google Cloud, Big Data \& Machine Learning Fundamentals, \location{\href{https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~5PH3QTYTHEMM/CERTIFICATE_LANDING_PAGE~5PH3QTYTHEMM.jpeg}{link}, (2020)}
+
+\textbullet{} Continuous Delivery \& DevOps - University Of Virginia, Darden School Of Business, \location{\href{https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~836VWQQJ9F57/CERTIFICATE_LANDING_PAGE~836VWQQJ9F57.jpeg)}{link}, (2020)}
+
+\textbullet{} Deep Learning Specialization @DeepLearning.AI, \location{\href{https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~TXFEKNJQ7WVE/CERTIFICATE_LANDING_PAGE~TXFEKNJQ7WVE.jpeg}{link}, (2020)}
+
+% \textbullet{} Machine Learning @ Stanford, \location{\href{https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~6XQ5BSTL6MSG/CERTIFICATE_LANDING_PAGE~6XQ5BSTL6MSG.jpeg}{link}, (2020)}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+\runsubsection{\href{https://www.mapillary.com/}{Mapillary, Meta}}
+\descript{| Software Engineer}
+\location{June '21 - Aug '21 | Remote}
+\vspace{\topsep}
+\begin{tightemize}
+    \item Engineered \& developed an \textbf{\href{https://github.com/facebookincubator/mapillary-python-sdk}{SDK}} for Mapillary's latest \textit{API} release, providing access to \textit{50M+ photos} \& \textit{GIS data} with \textbf{Python}, contributing \textit{4K+ LoC}
+
+    \item Automated \textbf{GitHub Workflows} for \textit{generating documentation}, \textit{deploying documentation} to \textbf{GitHub Pages}, \textit{pushing releases} to \textbf{PyPI}
+
+    \item Implemented basic testing mechanism with \textbf{PyTest}
+
+    \item Gained 12 stars, 5 forks, 8 watchers, and contributed content for a "Meta For Developers" blog post, "\href{https://developers.facebook.com/blog/post/2022/01/04/mapillary-contributor-story-saif-ul-islam/}{\textbf{Mapillary: A Contributor’s Story with Saif Ul Islam}}"
+\end{tightemize}
+\sectionsep
+
+\runsubsection{\href{https://jina.ai/}{Jina AI}}
+\descript{| DevOps Engineer}
+\location{July '21 | Remote}
+\begin{tightemize}
+    \item Collaborated on a \href{https://github.com/georgeamccarthy/protein_search/pull/30}{\textbf{@JinaAI Project}} with MLH podmates, contributed DevOps (Docker) integration
+
+    \item Automated, cached back-end and front-end with \textbf{Docker} best practices
+\end{tightemize}
+\sectionsep
+
+\runsubsection{\href{https://fellowship.mlh.io}{Major League Hacking}}
+\descript{| Open Source Software, Fellowship}
+\location{June '21 - Aug '21 | Remote}
+\begin{tightemize}
+    \item Attended standups, "greens/yellows/reds" regarding project progression, technological discussions related to career growth, open source, "show and tells", where I presented one over "Developer Operations" (\textbf{DevOps})
+
+    \item Engaged in "\textbf{Production Engineering}" sessions in collaboration with "\textbf{MLH Facebook Sessions and Talks}"
+    
+    \item Wrote a \href{https://dev.to/rubix982/mlh-open-source-mapillary-me-nji}{\textbf{blog post}} about the experience on \href{https://dev.to/}{dev.to}
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PROJECTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Projects}
+\runsubsection{\href{https://github.com/rubix982/terrabuzz}{Terrabuzz}}
+\descript{| Social Media Application}
+\location{Sept 2020 – Dec 2020 | Database Systems (Project) | Karachi, Pakistan}
+\begin{tightemize}
+    \item Designed \& developed a PoC \textit{Full Stack Web App} for a Social Media with functionalities of \textbf{hashtags}, \textbf{followers}, \textbf{posts}, \textbf{notifications}, \textbf{profiles}, \textbf{feed}, \textbf{settings}, \textbf{comments}, \textbf{likes} \\
+    
+    \item Worked on \textit{requirement analysis \& documentation}  for (a) Proposal, (b) SRS/SDS using \textbf{LaTeX}, (b) Data Modelling with \textbf{LucidChart}, (c) UI Prototyping with \textbf{Figma} \\
+    
+    \item Built the application with \textbf{ReactJS}, \textbf{ExpressJS}, \textbf{MySQL}, \textbf{MongoDB}, \textbf{Neo4j}, \textbf{Docker}, \textbf{Nginx}, and tested deployement with  \textbf{Azure} \& \textbf{Vercel} \\
+\end{tightemize}
+\sectionsep
+
+\runsubsection{\href{https://github.com/Rubix982/Reliablee/}{Reliablee}}
+\descript{| Reliable Data Transmission Over TCP}
+\location{May 2021 | Computer Networking}
+\begin{tightemize}
+    \item Implemented a TCP protocol based simulation to show workings of the \textbf{Reliable Data Transmission 3.0} standard \\
+
+    \item Responsible for \textbf{architecture} and \textbf{requirement extraction} from the given theoretical material, presenting the implementation \& code base, \textbf{logging} transmission results
+\end{tightemize} 
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     AWARDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Achievements} 
+\begin{tabular}{lll}
+'18-'22         & Dean's List {\footnotesize \textit{\textbf{(Fall '18, Spring '19, Fall '20, Spring '21, Fall '21)}}} \\
+Fall '21             & GitHub {\footnotesize \textit{\textbf{(Top 10 Contributors in Pakistan, 180+ PRs opened, 55+ PRs reviewed, 250+ issues opened)}}} \\
+Jun '20             & Facebook Messaging Hackathon (\href{https://fbmessaging2.devpost.com/project-gallery?page=2}{DevPost}) {\footnotesize{\textit{\textbf{(25th/209 submissions)}}}} \\
+Fall '19             & ICPC Topi Regional, '19 {\footnotesize \textit{\textbf{(7th/40+ teams)}}} \\
+\end{tabular}
+\sectionsep
+
+\end{minipage} 
+\end{document}  \documentclass[]{article}
